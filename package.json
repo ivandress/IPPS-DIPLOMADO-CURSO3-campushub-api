@@ -1,0 +1,23 @@
+{
+  "name": "campushub-api",
+  "version": "0.1.0",
+  "description": "CampusHub — tu proyecto del curso. Repositorio base que crece capítulo a capítulo hasta ser una plataforma backend completa (Node + Express).",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "campushub",
+    "express",
+    "api",
+    "cursos"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
