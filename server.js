@@ -27,10 +27,15 @@ app.use(express.json())  // entiende los body en JSON de los POST/PUT
 //           - PUT    /cursos/:id   → actualizar
 //           - DELETE /cursos/:id   → borrar (204)
 //
-//  Cap 6  · reemplazar el array por MongoDB (Mongoose).
+//  Lab 10 · subir portada (multer) + servir la carpeta uploads/.
+//  Lab 12 · CRUD REST de /alumnos (mismo patrón de 5 rutas).
+//  Cap 6  · reemplazar los arrays por MongoDB (Mongoose).
 //  Cap 7  · separar en capas: routes / controllers / services / models.
-//  Cap 8  · login (JWT + bcrypt), roles y permisos.
-//  Cap 9  · correo al matricularse (Nodemailer) y login con Google (OAuth).
+//  Cap 8  · profesores, registro, login (JWT + bcrypt), roles y permisos.
+//  Cap 9  · matrículas + correo (Nodemailer) y login con Google (OAuth).
+//
+//  👉 Respeta el CONTRATO del README: nombres de rutas y de campos del body.
+//     Tu API se conectará a un frontend que espera EXACTAMENTE esos nombres.
 //
 //  Escribe tu código aquí arriba de app.listen(). ¡Manos a la obra!
 
